@@ -8,7 +8,7 @@ const Layout = () => {
 		<React.Fragment>
 			<Header />
 
-			<main>
+			<main className='container'>
 				<Outlet />
 			</main>
 
